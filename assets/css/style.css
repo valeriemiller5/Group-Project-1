@@ -1,7 +1,11 @@
 
-body {
-    background-image: url("../images/squared_metal_@2X.png");
- 
+body, html {
+    background-color: white;
+    height: 175%;
+    background-image: linear-gradient(to bottom right, black, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .container {
@@ -33,24 +37,16 @@ body {
 }
 
 .jumbotron {
-    background-image: url("../images/jumbotron.jpg");
+    background-image: url("../images/food_image.jpg");
     background-size: cover;
     height: 100%;
-    background-color:rgba(2, 19, 43, 0.705);
+    background-color: transparent;
     border-color: #ddd;
     border-spacing: solid;
     border: 1px solid;
-}
-
-.jumbotron, h1{
     color: rgb(170, 9, 9);
     text-align: center;
     font-family: 'Vast Shadow', cursive;
-    font-size: 50px !important;
-}
-img {
-    height: 50%;
-    width: 50%;
 }
 
 #inputCategory {
@@ -79,12 +75,6 @@ img {
 
 .row.form-group {
     margin-left: -15px !important;
-}
-
-#map {
-    width: 100%;
-    height: 500px;
-    background: yellow;
 }
 
 #myBtn { 
@@ -150,6 +140,11 @@ td {
     width: 100%;
     height: 500px;
     background: yellow;
+    border-radius: 10px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
 }
 
 h1  {
@@ -163,12 +158,12 @@ h1  {
 
 h2 {
     margin-left: 10%;
-    
     margin-right: 10px;
     font-size: 15px;
     font-weight: 600 !important;
     position: relative;
     bottom: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -197,21 +192,6 @@ p {
     margin-right: 20px;
 }
 
-#map{
-    border-radius: 10px !important;
-    border: 1px solid #ced4da !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border-radius: 10px !important;
-    margin-bottom: 15px !important;
-}
-
-#myCarousel{
-    border-radius: 10px !important;
-    border: 1px solid #ced4da !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border-radius: 10px !important;
-    margin-bottom: 15px !important;
-}
 @media screen and (max-width: 790px) {
     h4 { display: none; }   /* hide it elsewhere */
   }

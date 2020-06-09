@@ -1,5 +1,6 @@
-
 $(document).ready(function () {
+    console.log("Jumbotron Image by Jay Wennington on Unsplash");
+
     //zomato search database
     var category
     var queryURL = "https://developers.zomato.com/api/v2.1/";
@@ -36,7 +37,7 @@ $(document).ready(function () {
         authDomain: "hyelp-1533266960440.firebaseapp.com",
         databaseURL: "https://hyelp-1533266960440.firebaseio.com",
         projectId: "hyelp-1533266960440",
-        storageBucket: "",
+        storageBucket: "hyelp-1533266960440.appspot.com",
         messagingSenderId: "1028833344633"
     };
 
